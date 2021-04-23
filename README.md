@@ -23,4 +23,6 @@ In short, the results of the experiments were as follows:
 
 ----------------------------------------
 
-Python code was used in order to generate sample networks and save them in Pajek format, with the help of the NetworkX library. Java was then used to read the Pajek networks and simulate the SIS epidemic. 
+Python code (NetworkGenerator.py) was used in order to generate sample networks and save them in Pajek format, with the help of the NetworkX library. Java was then used to read the Pajek networks and simulate the SIS epidemic. 
+- CN_A4.java contains the main method. The setup for all of the experiments are located in this class, as well as the method for reading Pajek files. 
+- Graph.java contains the Graph and Node classes, which are used for storing all of the network data (node and edge information), and simulating a single instance of an epidemic. 
